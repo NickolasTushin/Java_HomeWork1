@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Task1 {
 
     public static void main(String[] args) {
-        System.out.println("Введите число:  ");
+        System.out.println("Введите число  n:  ");
         Scanner sc = new Scanner(System.in);
         int last_num = sc.nextInt();
         sc.close();
@@ -18,7 +18,7 @@ public class Task1 {
             result_sum += i;
             result_mult *= i;
         }
-        System.out.println("Треугольное число = " + result_sum);
+        System.out.println("Сумма = " + result_sum);
         System.out.println("Произведение = " + result_mult);
     }
     
